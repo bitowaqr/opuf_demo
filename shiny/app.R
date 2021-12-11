@@ -12,7 +12,7 @@
 #----------------------------------------------------
 #
 # NB: This shiny app was originally built for the EQ-5D-5L instrument.
-# Due to licensing issues,, we are not allowed to publish the orignal version.
+# Due to licensing issues, we are not allowed to publish the orignal version.
 # This code therefore contains placeholders 'dimension A', 'dimension B' etc
 #
 #----------------------------------------------------
@@ -50,7 +50,7 @@ for(p in paths){
 
 # Generate PLACEHOLDER descriptive system object
 ds = placeholderGen()
-ds_expanded = eq5d5l_expand()
+ds_expanded = dsExpand(ds)
 start_at_page = 1      # set starting page (for debugging)
 
 # DEFINE PATH THROUGH THE TOOL

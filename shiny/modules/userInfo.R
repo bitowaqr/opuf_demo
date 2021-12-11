@@ -3,7 +3,7 @@
 # responses to save them as RDS
 
 
-# generate 1-0 scaled PUF
+# generate a 1-0 scaled PUF
 scaledFit = function(input,ds){
         d_weights = unlist(lapply(names(ds), function(x) isolate(input[[paste0("swingRate_", x)]]))) / 100
         l_scores = c(isolate(100-input$lvlRate[5:1])) / 100
@@ -11,7 +11,7 @@ scaledFit = function(input,ds){
         return(mat)
 }
 
-# gemerate anchored PUF
+# generate an anchored PUF
 anchoredFit = function(ds_expanded,scaled_hs_values,hs_eq_dead, dead_vas_hs = NULL,dead_vas_value = NULL){
 
     if (sum(hs_eq_dead) > 5) {

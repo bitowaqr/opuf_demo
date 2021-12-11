@@ -219,7 +219,7 @@ resultsViewer_ui <- function(purples,ds,...) {
 
 resultsViewerRanking <- function(input, ds){
   
-  pop_ranking <- c("PD","AD","MO","SC","UA")
+  pop_ranking <- c("D","E","A","B","C")
   user_ranking <- input$dimRank_ranking
   
   dim_labs <- c()
@@ -279,7 +279,7 @@ resultsViewer_barplot = function(input, ds,purples = c("#F2F0F7","#DADAEB", "#BC
     bar_dat$lvl = as.numeric(bar_dat$lvl)
     bar_dat$whose_res = as.factor(bar_dat$whose_res)
     bar_dat$value = abs(bar_dat$value)
-    bar_labs = ds$AD$lvlsRate_args
+    bar_labs = ds$E$lvlsRate_args
     bar_dat = bar_dat[order(bar_dat$lvl), ]
 
     # # Stacked

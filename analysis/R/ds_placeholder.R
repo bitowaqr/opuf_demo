@@ -1,7 +1,7 @@
 
 placeholderGen <- function(){
-  MO <- dimGen(
-    name = "DIMENSION A", name2 = "DIMENSION A", dim_id = "MO",col = "#26384E",
+  A <- dimGen(
+    name = "DIMENSION A", name2 = "DIMENSION A", dim_id = "A",col = "#26384E",
     levels = c(
       "I have no problems with DIMENSION A",
       "I have slight problems with DIMENSION A",
@@ -11,7 +11,7 @@ placeholderGen <- function(){
     )
   )
   
-  SC <- dimGen(name = "DIMENSION B",name2="DIMENSION B",dim_id="SC",col = "#1AB471",
+  B <- dimGen(name = "DIMENSION B",name2="DIMENSION B",dim_id="B",col = "#1AB471",
                levels = c(
                  "I have no problems with DIMENSION B",
                  "I have slight problems with DIMENSION B",
@@ -20,7 +20,7 @@ placeholderGen <- function(){
                  "I have extreme problems with DIMENSION B"
                  ))
   
-  UA <- dimGen(name = "DIMENSION C",name2 = "DIMENSION C",dim_id = "UA",col = "#00AEEF",
+  C <- dimGen(name = "DIMENSION C",name2 = "DIMENSION C",dim_id = "C",col = "#00AEEF",
                levels = c(
                  "I have no problems with DIMENSION C",
                  "I have slight problems with DIMENSION C",
@@ -30,7 +30,7 @@ placeholderGen <- function(){
                  ))
   
   
-  PD <- dimGen(name = "DIMENSION D",name2="DIMENSION D",dim_id = "PD",col = "#F15A22",
+  D <- dimGen(name = "DIMENSION D",name2="DIMENSION D",dim_id = "D",col = "#F15A22",
                levels =  c(
                  "I have no problems with DIMENSION D",
                  "I have slight problems with DIMENSION D",
@@ -40,7 +40,7 @@ placeholderGen <- function(){
                  ))
   
   
-  AD <- dimGen(name = "DIMENSION E",name2 = "DIMENSION E",dim_id = "AD",col = "#FFCB05",
+  E <- dimGen(name = "DIMENSION E",name2 = "DIMENSION E",dim_id = "E",col = "#FFCB05",
                levels = c(
                  "I have no problems with DIMENSION E",
                  "I have slight problems with DIMENSION E",
@@ -56,7 +56,7 @@ placeholderGen <- function(){
                                  )
                )
   
-  placeholder_ds <- dsGen(list(MO,SC,UA, PD, AD)) 
+  placeholder_ds <- dsGen(list(A,B,C,D,E)) 
   
   return(placeholder_ds)
 }

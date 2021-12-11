@@ -32,4 +32,5 @@ docs/
 po/*~
 #   .DS_Store
 .DS_Store
-
+# git manager
+git.Rproj
