@@ -2,7 +2,7 @@
 
 This repository contains the R source code for the publication:
 
-#### **"A new online tool for valuing health states: eliciting personal utility functions for the EQ-5D-5L"**
+#### **"The Online Elicitation of Personal Utility Functions (OPUF) web survey – a new online tool for valuing health states"**
 
 Paul Schneider<sup>1</sup>, Ben van Hout<sup>1,2</sup>, Marieke Heisen<sup>3</sup>, John Brazier<sup>1</sup>, Nancy Devlin<sup>4</sup>
 
