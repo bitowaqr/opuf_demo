@@ -10,6 +10,5 @@ Folder structure:
     www/        # additional js source files and logos 
   
 
-N.B.: Unfortunately, we are not allowed to use the labels of the EQ-5D-5L instrument. 
-The code contains placeholders ('dimension A', 'dimension B', etc.) instead.
+N.B.: Since we are not allowed to provide the labels of the EQ-5D-5L instrument in the source code, it contains placeholders ('dimension A', 'dimension B', etc.) instead. EQ-5D labels in any language can be requested free of charge at [https://registration.euroqol.org/](https://registration.euroqol.org/)
 
