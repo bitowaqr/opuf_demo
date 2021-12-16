@@ -14,7 +14,7 @@
 # NB: This shiny app was originally built for the EQ-5D-5L instrument.
 # Due to licensing issues, we are not allowed to publish the orignal version.
 # This code therefore contains placeholders 'dimension A', 'dimension B' etc
-#
+# EQ-5D labels can be requested free of charge at https://registration.euroqol.org/
 #----------------------------------------------------
 
 
